@@ -2,23 +2,22 @@
 {
 	margin-left: 40% ;
 	margin-top: 20% ;
-	background-color: #ffe4e1 ;
+	background-color: rgb(156, 171, 177);
 	height : 200px ;
 	width: 300px ;
-
-}
-
-#score
-{
-	float : left ;
+	text-align: center;
 }
 
 #ourScore
 {
 	display: inline-block; 
+	//float: left;
+	width: 130px;
 }
 
 #compScore
 {
 	display: inline-block; 
+	//float: right;
+	width: 130px;
 }
