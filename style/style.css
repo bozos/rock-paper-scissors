@@ -1,0 +1,24 @@
+#container
+{
+	margin-left: 40% ;
+	margin-top: 20% ;
+	background-color: #ffe4e1 ;
+	height : 200px ;
+	width: 300px ;
+
+}
+
+#score
+{
+	float : left ;
+}
+
+#ourScore
+{
+	display: inline-block; 
+}
+
+#compScore
+{
+	display: inline-block; 
+}
