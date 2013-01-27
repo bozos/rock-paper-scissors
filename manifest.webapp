@@ -3,7 +3,7 @@
 	"description" : "RPS Game",
 	"launch_path" : "/index.html",
 	"developer": {
-		"name" : "Jai Luthra","Rachit Gupta"
+		"name" : "Jai Luthra"
 	},
 	"default_locale" : "en"
 }
