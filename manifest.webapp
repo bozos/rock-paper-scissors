@@ -1,0 +1,9 @@
+{
+	"name" : "Rock-Paper-Scissor",
+	"description" : "RPS Game",
+	"launch_path" : "/index.html",
+	"developer": {
+		"name" : "Jai Luthra","Rachit Gupta"
+	},
+	"default_locale" : "en"
+}

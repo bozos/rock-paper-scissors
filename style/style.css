@@ -12,12 +12,12 @@ body
 {
 	display: inline-block; 
 	//float: left;
-	width: 140px;
+	width: 50%;
 }
 
 #compScore
 {
 	display: inline-block; 
 	//float: right;
-	width: 140px;
+	width: 50%;
 }
