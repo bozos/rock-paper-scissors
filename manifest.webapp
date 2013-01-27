@@ -2,9 +2,12 @@
 	"name" : "Rock-Paper-Scissor",
 	"description" : "RPS Game",
 	"launch_path" : "/index.html",
+	"icons": {
+    "128": "/firefox.png"
+  },
 	"developer": {
 		"name" : "Jai Luthra",
-		"url" : "http://localhost"
+		"url" : "http://github.com/jailuthra/rock-paper-scissors"
 	},
 	"default_locale" : "en"
 }
