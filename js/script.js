@@ -43,6 +43,25 @@ function compare(){
 		if (cpu_pick == 'r')
 			cscore += 1;
 	}
+
+
+	switch(user_pick)
+	{
+		case 'r' : udisplay="Rock"; break;
+		case 'p' : udisplay="Paper"; break;
+		case 's' : udisplay="Scissors"; break;
+	}
+
+	switch(cpu_pick)
+	{
+		case 'r' : cdisplay="Rock"; break;
+		case 'p' : cdisplay="Paper"; break;
+		case 's' : cdisplay="Scissors"; break;
+	}
+
+
 	document.getElementById("uscore").innerHTML = uscore ;
 	document.getElementById("cscore").innerHTML = cscore ;
+	document.getElementById("uChoice").innerHTML = udisplay;
+	document.getElementById("cChoice").innerHTML = cdisplay ;
 }
