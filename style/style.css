@@ -1,23 +1,23 @@
+body 
+{
+	background-color: rgb(156, 171, 177);
+}
 #container
 {
-	margin-left: 40% ;
-	margin-top: 20% ;
-	background-color: rgb(156, 171, 177);
-	height : 200px ;
-	width: 300px ;
 	text-align: center;
+	padding : 5px;
 }
 
 #ourScore
 {
 	display: inline-block; 
 	//float: left;
-	width: 130px;
+	width: 140px;
 }
 
 #compScore
 {
 	display: inline-block; 
 	//float: right;
-	width: 130px;
+	width: 140px;
 }

@@ -18,8 +18,8 @@ function userPick(clicked_id)
 }
 
 function compare(){
-	var uscore = document.getElementById("uscore").innerHTML ;
-	var cscore = document.getElementById("cscore").innerHTML ;
+	var uscore = parseInt(document.getElementById("uscore").innerHTML) ;
+	var cscore = parseInt(document.getElementById("cscore").innerHTML) ;
 	if(user_pick == 'r')
 	{
 		if(cpu_pick == 's')
