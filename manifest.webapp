@@ -1,6 +1,6 @@
 {
-	"name" : "Rock-Paper-Scissor",
-	"description" : "RPS Game",
+	"name" : "RPS",
+	"description" : "Classical Rock-Paper-Scissors game, against AI.",
 	"launch_path" : "/index.html",
 	"icons": {
     "128": "/firefox.png"
