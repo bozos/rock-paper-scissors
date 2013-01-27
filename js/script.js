@@ -6,17 +6,6 @@ function cpuPick()
     compare() ;
 }
 
-function userPick(clicked_id)
-{
-	switch(clicked_id)
-	{
-		case "rockBtn" : user_pick = 'r' ; break ;
-		case "paperBtn" : user_pick = 'p' ; break ;
-		case "scissorBtn" : user_pick = 's' ; break ;
-	}
-	cpuPick() ;
-}
-
 function compare(){
 	var uscore = parseInt(document.getElementById("uscore").innerHTML) ;
 	var cscore = parseInt(document.getElementById("cscore").innerHTML) ;
@@ -65,3 +54,6 @@ function compare(){
 	document.getElementById("uChoice").innerHTML = udisplay;
 	document.getElementById("cChoice").innerHTML = cdisplay ;
 }
+
+  
+
