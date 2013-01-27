@@ -6,13 +6,13 @@
 </head>
 <body>
 	<div id="container">
-		<button id="rockBtn">Rock</button>
-		<button id="paperBtn">Paper</button>
-		<button id="scissorBtn">Scissors</button>
+		<button id="rockBtn" onclick="userPick(this.id)">Rock</button>
+		<button id="paperBtn" onclick="userPick(this.id)">Paper</button>
+		<button id="scissorBtn" onclick="userPick(this.id)">Scissors</button>
 		<br>
 		<div id="score">
-			<div id="ourScore">Your Score :</div> 
-			<div id ="compScore">Computer's Score : </div>
+			<div id="ourScore">Your Score : <span id = "uscore">0</span></div> 
+			<div id ="compScore">Computer's Score : <span id = "cscore">0</span> </div>
 		</div>
 	</div>
 </body>

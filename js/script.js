@@ -1,6 +1,48 @@
 function cpuPick()
+{	
+    var chars="rps" ;
+    var rchar = Math.floor(Math.random() * chars.length) ;
+    cpu_pick = chars.substring(rchar, rchar+1) ;
+    compare() ;
+}
+
+function userPick(clicked_id)
 {
-    var possible = "rps";
-    var text = possible.charAt(Math.floor(Math.random() * 1));
-    return text;
+	switch(clicked_id)
+	{
+		case "rockBtn" : user_pick = 'r' ; break ;
+		case "paperBtn" : user_pick = 'p' ; break ;
+		case "scissorBtn" : user_pick = 's' ; break ;
+	}
+	cpuPick() ;
+}
+
+function compare(){
+	var uscore = document.getElementById("uscore").innerHTML ;
+	var cscore = document.getElementById("cscore").innerHTML ;
+	if(user_pick == 'r')
+	{
+		if(cpu_pick == 's')
+			uscore += 1;
+		if (cpu_pick == 'p')
+			cscore += 1;
+	}
+	
+	else if(user_pick == 'p')
+	{
+		if(cpu_pick == 'r')
+			uscore += 1;
+		if (cpu_pick == 's')
+			cscore += 1;
+	}
+	
+	 else if(user_pick == 's')
+	{
+		if(cpu_pick == 'p')
+			uscore += 1;
+		if (cpu_pick == 'r')
+			cscore += 1;
+	}
+	document.getElementById("uscore").innerHTML = uscore ;
+	document.getElementById("cscore").innerHTML = cscore ;
 }
