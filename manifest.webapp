@@ -1,9 +1,9 @@
 {
 	"name" : "RPS",
-	"description" : "Classical Rock-Paper-Scissors game, against AI.",
+	"description" : "Classic Rock-Paper-Scissors game, against AI.",
 	"launch_path" : "/index.html",
 	"icons": {
-    "128": "/firefox.png"
+    "64": "/rps.png"
   },
 	"developer": {
 		"name" : "Jai Luthra",
