@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> RPS </title>
-	<link rel="stylesheet" type="text/css" href="style/style.css">
-	<script type="text/javascript" src="js/script.js"></script>
+  <title> RPS </title>
+  <link rel="stylesheet" type="text/css" href="style/style.css">
+  <link href='http://fonts.googleapis.com/css?family=Bubblegum+Sans' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Patrick+Hand+SC' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
-	<div id="container">
-		<h2 style="font-famly: serif; text-shadow : 5px 2px 5px #123456;"> Rock Paper Scissors </h2>
-		<button id="rockBtn">Rock</button>
-		<button id="paperBtn">Paper</button>
-		<button id="scissorBtn">Scissors</button>
-		<br><br />
-		<div id="choice">
-			<div id="ourChoice">Your Choice : <b id = "uChoice"></b></div><br />
-			<div id ="compChoice">Computer's Choice : <b id = "cChoice"></b> </div><br />
-		</div>
-		<div id="score">
-			<div id="ourScore">Your Score : <span id = "uscore">0</span></div> 
-			<div id ="compScore">Computer's Score : <span id = "cscore">0</span> </div>
-		</div>
-	</div>
-	<script type="text/javascript" src="js/events.js"></script>
+
+  <div id="container">
+    <h1 style="font-family: Bubblegum Sans;">Rock Paper Scissors</h1>
+    <img src="img/rock.svg" id="rockBtn" height="128px" />
+    <img src="img/paper.svg" id="paperBtn" height="128px"  />
+    <img src="img/scissors.svg" id="scissorBtn" height="128px" /><br /><br />
+    
+  <div id="choice" style="position:fixed; bottom:0px; left:10%; right:10%; color:#222; font-family:Patrick Hand SC;">
+      <h2><span id = "user_choice"></span> V/S <span id = "cpu_choice"></span></h2>
+  </div>  
+  
+  <div class="score">
+    <span id="uscore" style="left:0px; border-left-style:none;">0</span>
+  </div> 
+    
+  <div class="score">
+    <span id="cscore" style="right:0px; border-right-style:none;">0</span>
+  </div>
+    
+  <script type="text/javascript" src="js/events.js"></script>
+
 </body>
 </html>

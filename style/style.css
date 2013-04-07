@@ -1,6 +1,6 @@
 body 
 {
-	background-color: rgb(156, 171, 177);
+	background-color: #ddd;
 }
 #container
 {
@@ -8,16 +8,18 @@ body
 	padding : 5px;
 }
 
-#ourScore
+.score span
 {
-	display: inline-block; 
-	//float: left;
-	width: 50%;
-}
-
-#compScore
-{
-	display: inline-block; 
-	//float: right;
-	width: 50%;
+        position: fixed;
+	bottom: 0px;
+        display: block;
+	border: 2px solid #333;
+	border-radius:5px;
+	width: 32px;
+	height:32px;
+	font-size: 30px;
+	color: #333;
+	border-bottom-style: none;
+	font-family: Bubblegum Sans;
+	text-align: center;
 }

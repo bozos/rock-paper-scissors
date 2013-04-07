@@ -51,8 +51,8 @@ function compare(){
 
 	document.getElementById("uscore").innerHTML = uscore ;
 	document.getElementById("cscore").innerHTML = cscore ;
-	document.getElementById("uChoice").innerHTML = udisplay;
-	document.getElementById("cChoice").innerHTML = cdisplay ;
+	document.getElementById("user_choice").innerHTML = udisplay;
+	document.getElementById("cpu_choice").innerHTML = cdisplay ;
 }
 
   
