@@ -3,11 +3,12 @@
 	"description" : "Classic Rock-Paper-Scissors game, against AI.",
 	"launch_path" : "/index.html",
 	"icons": {
-    "64": "/rps.png"
+    "128": "/rps.png",
+    "64": "/rps-64.png"
   },
 	"developer": {
-		"name" : "Jai Luthra",
-		"url" : "http://github.com/jailuthra/rock-paper-scissors"
+		"name" : "Bozos",
+		"url" : "http://github.com/bozos"
 	},
 	"default_locale" : "en"
 }
