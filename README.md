@@ -1,12 +1,15 @@
 Rock Paper Scissors
 ===================
 
-A simple web-app. Made with Firefox OS in mind.
+A simple web-app. Made with Firefox OS in mind.  
+It is published at [Firefox Marketplace](https://marketplace.firefox.com/app/rps).
 
 ##TODO:
 
 * Cleaning up clutter in the code.
 
-##LICENSE:
-* All the work is licensed under MIT License (See LICENSE for detail) 
-* The contents of **img/** are licensed under [Creative Commons Attribution-Share Alike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en), and are taken from [Wikipedia](http://en.wikipedia.org/wiki/File:Pierre_ciseaux_feuille_lézard_spock_aligned.svg)
+##LICENSE:  
+* The contents of **img/** are derivatives of work by DMacks [GFDL](http://www.gnu.org/copyleft/fdl.html)
+or [CC-BY-SA-3.0-2.5-2.0-1.0](http://creativecommons.org/licenses/by-sa/3.0),
+via [Wikimedia Commons](http://commons.wikimedia.org/wiki/File%3APierre_ciseaux_feuille_l%C3%A9zard_spock_aligned.svg).  
+* Rest of the work is licensed under MIT License (see LICENSE for detail) 
