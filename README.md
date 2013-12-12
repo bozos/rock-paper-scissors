@@ -8,6 +8,7 @@ It is published at [Firefox Marketplace](https://marketplace.firefox.com/app/rps
 **(Arranged in descending order of Priority)**
 
 * PNG fallback for Android Browser. This [Stack Overflow question](http://goo.gl/czmwVr) might help.
+* The basic structure of Score and Option display could be improved. Try playing [RPSLS](https://marketplace.firefox.com/app/rps-ls).
 * Improving the scoring system, such that the game actually stops after some time.  
 (Eg: If one player is ahead by 5 points)
 * Add some CSS animation on button tap/click such that when the user taps his option, the image appears to go down into the plane.
