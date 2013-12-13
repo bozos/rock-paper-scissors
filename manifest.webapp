@@ -1,10 +1,10 @@
 {
 	"name" : "RPS",
 	"description" : "Classic Rock-Paper-Scissors game, against AI.",
-	"launch_path" : "/index.html",
+    "launch_path" : "/rock-paper-scissors/",
 	"icons": {
-    "128": "/rps.png",
-    "64": "/rps-64.png"
+    "128": "/rock-paper-scissors/rps.png",
+    "64": "/rock-paper-scissors/rps-64.png"
   },
 	"developer": {
 		"name" : "Bozos",
